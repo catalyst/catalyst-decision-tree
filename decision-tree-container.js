@@ -56,6 +56,7 @@ const PPLDecisionTree = (props) => {
 
   return (
     <div>
+    <p>This is a test</p>
     {
       selectedAnswers.map((selectedAnswer, index) => {
         const isLastItem = index + 1 === selectedAnswers.length;
